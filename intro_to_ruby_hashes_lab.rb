@@ -1,3 +1,4 @@
+require 'pry'
 def new_hash
   return {}
 
@@ -20,7 +21,7 @@ def monopoly_with_second_tier
 		  }
 		
 		}
-	
+	binding.pry
 end
 
 def monopoly_with_third_tier
